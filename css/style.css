@@ -109,7 +109,7 @@ p {
     transition: background-color 0.2s linear, color 0.2s linear;
 }
 .lingua:hover {
-  color: white;
+  color: grey;
 }
 
 .nav__link {
@@ -355,15 +355,16 @@ img.hover-shadow {
   font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
-  color: #ACACAC;
-  background-color:#f2f2f2;
+  color: white;
+  background-color:black;
   border: none;
   text-decoration: none;
   outline: none;
   transition: color .3s linear;
 }
 .btn:hover {
-  color: #000000;
+  color: black;
+  background-color: #00000075;
 
 }
 .info__suptitle {
