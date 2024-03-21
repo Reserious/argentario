@@ -983,6 +983,9 @@ img.hover-shadow {
   width: 100%;
   margin-bottom: 20px;
 }
+.mail {
+  font-size: 15px;
+}
 
 .footer__credits {
   margin-bottom: 30px;
