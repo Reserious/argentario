@@ -94,13 +94,13 @@ p {
   padding: 0;
   width: 100%;
   display: flex;
-  justify-content:end;
+  justify-content:space-around;
   z-index: 2;
   position: relative;
 
 }
 .lingua {
-    top: 10px;
+/*    top: 10px;*/
     position: absolute;
     color: black;
     text-decoration: none;
@@ -289,6 +289,12 @@ p {
 
 .demo {
   opacity: 0.6;
+}
+
+.desc_info {
+  padding: 20px;
+  font-size: 20px;
+  background-color: #0000004f;
 }
 
 .active,
@@ -848,7 +854,7 @@ img.hover-shadow {
     transition: all .5s ease 0s;
     background-color:#fffffff2;
     z-index: 1;
-    padding: 120px 10px 20px 10px;
+    padding: 50px 10px 20px 10px;
 
    }
    .nav.active {
@@ -858,7 +864,7 @@ img.hover-shadow {
 
     text-align: center;
     display: block;
-    margin: 70px 0 25px 0;
+    margin: 54px 0 25px 0;
     font-size: 20px;
 /*    color: #fff;*/
    }
